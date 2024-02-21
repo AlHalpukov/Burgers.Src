@@ -9,7 +9,7 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   getData() {
-    return this.http.get("https://testologia.site/burgers-data");
+    return this.http.get("https://testologia.site/burgers-data?extra=black");
   }
 
   sendOrder(data: any) {

@@ -14,7 +14,7 @@
     <header class="header">
       <div class="container">
         <div class="logo">
-          <img src="../assets/images/LOGO.svg" alt="Logo">
+          <img src="./assets/images/LOGO.svg" alt="Logo">
         </div>
         <nav class="menu">
           <ul class="menu-list">
@@ -47,7 +47,7 @@
             <button class="button" id="main-action-button" (click)="scrollTo(product)">Смотреть меню</button>
           </div>
         </div>
-        <img src="../assets/images/main_burger.png" alt="Burger" class="main-image">
+        <img src="./assets/images/main_burger.png" alt="Burger" class="main-image">
       </div>
     </section>
   </section>
@@ -57,20 +57,20 @@
       <div class="common-title">почему нас выбирают?</div>
       <div class="why-items">
         <div class="why-item">
-          <img src="../assets//images/burger.png" alt="Burger" class="why-item-image">
+          <img src="./assets//images/burger.png" alt="Burger" class="why-item-image">
           <div class="why-item-title">Авторские рецепты</div>
           <div class="why-item-text">Наши бургеры обладают уникальным сочетанием вкусов и не похожи
             ни на какие другие. Мы тщательно отбираем лучшие ингредиенты и сочетания вкусов для нашего меню.
           </div>
         </div>
         <div class="why-item">
-          <img src="../assets/images/meat.png" alt="Meat" class="why-item-image">
+          <img src="./assets/images/meat.png" alt="Meat" class="why-item-image">
           <div class="why-item-title">Мраморная говядина</div>
           <div class="why-item-text">Для наших бургеров мы используем отборную 100% мраморную говядину,
             которую закупаем исключительно у фермеров. Мы уверены в качестве нашего мяса.</div>
         </div>
         <div class="why-item">
-          <img src="../assets/images/truck.png" alt="Truck" class="why-item-image">
+          <img src="./assets/images/truck.png" alt="Truck" class="why-item-image">
           <div class="why-item-title">Быстрая доставка</div>
           <div class="why-item-text">Мы доставляем в пределах МКАД за 30 минут, а если не успеем — доставка
             бесплатно. Мы тщательно упаковываем наши бургеры, чтобы по дороге они не остыли.</div>
@@ -92,13 +92,13 @@
           <div class="product-item-extra">
             <div class="product-item-info">
               <div class="product-item-price"> {{product.price}} {{currency}} </div>
-              <div class="product-item-weight"> {{product.weight}} гр </div>
+              <div class="product-item-weight"> {{product.grams}} гр </div>
             </div>
             <div class="producy-item-action">
               <button class="button product-button" (click)="scrollTo(order, product)">
                 <span>Заказать</span>
                 <span>
-                  <img src="../assets/images/shopping-card.svg" alt="Shop">
+                  <img src="./assets/images/shopping-card.svg" alt="Shop">
                 </span>
               </button>
             </div>
@@ -111,7 +111,7 @@
   <section class="order" id="order" #order>
     <div class="container">
       <div class="common-title">оформление заказа</div>
-      <img src="../assets/images/order_image.png" alt="Order" class="order-image">
+      <img src="./assets/images/order_image.png" alt="Order" class="order-image">
       <div class="order-form">
         <div class="order-form-text">Заполните все данные и наш менеджер свяжется с вами для подтверждения
           заказа</div>
@@ -139,7 +139,7 @@
   <footer class="footer">
     <div class="container">
       <div class="logo">
-        <img src="../assets/images/LOGO.svg" alt="Logo">
+        <img src="./assets/images/LOGO.svg" alt="Logo">
       </div>
       <div class="rights">Все права защищены</div>
     </div>
